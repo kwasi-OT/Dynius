@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <title>Single Page Website</title>
+</head>
+<body>
+    <header class="bg-gray-900 text-white py-4">
+        <nav class="container mx-auto">
+            <ul class="flex justify-center">
+                <li class="mx-2"><a href="#home">Home</a></li>
+                <li class="mx-2"><a href="#about">About</a></li>
+                <li class="mx-2"><a href="#services">Services</a></li>
+                <li class="mx-2"><a href="#portfolio">Portfolio</a></li>
+                <li class="mx-2"><a href="#contact">Contact</a></li>
+
+                 <!-- Add a link to the Privacy Policy page -->
+        <li><a href="privacy-policy.html">Privacy Policy</a></li
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section bg-white">
+        <h1 class="text-4xl font-bold mb-4">Welcome to Our Website</h1>
+        <p class="text-lg">This is the Home section.</p>
+    </section>
+
+    <section id="about" class="section bg-white">
+        <h2 class="text-3xl font-semibold mb-4">About Us</h2>
+        <p class="text-lg">This is the About section.</p>
+    </section>
+
+    <section id="services" class="section bg-white">
+        <h2 class="text-3xl font-semibold mb-4">Our Services</h2>
+        <p class="text-lg">This is the Services section.</p>
+    </section>
+
+    <section id="portfolio" class="section bg-white">
+        <h2 class="text-3xl font-semibold mb-4">Our Portfolio</h2>
+        <p class="text-lg">This is the Portfolio section.</p>
+    </section>
+
+    <section id="contact" class="section bg-white">
+        <h2 class="text-3xl font-semibold mb-4">Contact Us</h2>
+        <p class="text-lg">This is the Contact section.</p>
+    </section>
+
+
+<!-- Include this in the content area of Slide 11 -->
+<section id="support">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+        <div class="form-group">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" id="submit-button" disabled>Submit Ticket</button>
+    </form>
+
+    <!-- Example in Slide 11 (or any other relevant page) -->
+<footer class="bg-gray-900 text-white py-4">
+    <div class="container mx-auto">
+        <ul class="flex justify-center">
+            <li class="mx-2"><a href="index.html">Home</a></li>
+            <li class="mx-2"><a href="our-offering.html">Our Offering</a></li>
+            <!-- Add a link to the Privacy Policy page -->
+            <li class="mx-2"><a href="privacy-policy.html">Privacy Policy</a></li>
+            <!-- Add links to other pages as needed -->
+        </ul>
+    </div>
+</footer>
+
+</section>
+
+
+    
+    <!-- Rest of your content -->
+
+    <script src="script.js"></script>
+</body>
+</html>
