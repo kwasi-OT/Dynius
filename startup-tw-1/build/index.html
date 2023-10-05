@@ -1769,7 +1769,7 @@
                         <p class="kh ug bh qa">Our support team will get back to you ASAP via email.</p>
 
                         <!-- support ticket form -->
-                        <form id="ticketForm" action="./assets/sendmail.php" method="POST">
+                        <form id="ticketForm" action="assets/sendmail.php" method="POST" enctype="multipart/form-data">
                             <div class="mb pd ba">
                                 <div class="ec _k/2 if">
                                     <div class="na">
@@ -1822,12 +1822,6 @@
                                     <div id="messageError" class="error-message"></div>
                                 </div>
                                 <div class="ec if">
-                                    <!-- <a
-                                        href="mailto:federico.pirovano@dynius.ai"
-                                        class="ug bh ih qe tf wf ri zi wd ai bi ci"
-                                    >
-                                        Submit Ticket
-                                    </a> -->
                                     <button class="ug bh ih qe tf wf ri zi wd ai bi ci" type="submit">Submit Ticket</button>
                                 </div>
                             </div>
