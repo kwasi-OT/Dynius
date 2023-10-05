@@ -7,7 +7,8 @@
     <title>Dynius</title>
     <meta name="title" content="Dynius" />
 
-  <link rel="icon" href="favicon.ico"><link href="style.css" rel="stylesheet"></head>
+    <link rel="icon" href="favicon.ico"><link href="style.css" rel="stylesheet">
+  </head>
   <body class="mj">
     <!-- ====== Navbar Section Start -->
     <header class="header ne e g h x ec mb qd">
@@ -2139,27 +2140,28 @@
       window.document.addEventListener('scroll', onScroll);
 
       // Function to count up to 7
-function countUp() {
-    const countElement = document.getElementById("countNumber");
-    let count = 0;
+      function countUp() {
+          const countElement = document.getElementById("countNumber");
+          let count = 0;
 
-    function updateCount() {
-        if (count <= 7) {
-            countElement.textContent = count;
-            count++;
-            setTimeout(updateCount, 1000); // Update every second
-        }
-    }
+          function updateCount() {
+              if (count <= 7) {
+                  countElement.textContent = count;
+                  count++;
+                  setTimeout(updateCount, 1000); // Update every second
+              }
+          }
 
-    updateCount();
-}
+          updateCount();
+      }
 
-// Run countUp when the page is loaded
-window.onload = function () {
-    countUp();
-    startCarousel(); // Add this line to start the partner carousel
-};
+      // Run countUp when the page is loaded
+      window.onload = function () {
+          countUp();
+          startCarousel(); // Add this line to start the partner carousel
+      };
 
     </script>
-  <script defer src="bundle.js"></script></body>
+    <script defer src="bundle.js"></script>
+  </body>
 </html>
