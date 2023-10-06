@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dynius</title>
-    <meta name="title" content="Dynius" />
-
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
     <link href="style.css" rel="stylesheet">
   </head>
+  
   <body class="mj">
     <!-- ====== Navbar Section Start -->
     <header class="header ne e g h x ec mb qd">
@@ -242,28 +242,41 @@
     </section>
     <!-- ====== Hero Page 1 Section End -->
 
-
-    <!-- ====== Page 2 Section Start -->
-    <section id="Our-offering" class="f y xf">
+    <!-- ====== page 2 Section Start -->
+    <section class="f y xf">
       <div class="a">
         <div class="mb pd ba">
           <div class="ec if">
-            <div class="ea wc sg fb wow fadeInUp" data-wow-delay=".1s">
+            <div
+              class="oe qj sj wd mb pd qd sd jf rf mk il jl co 2xl:ud-py-[30px] 2xl:ud-px-[50px] wow fadeInUp"
+              data-wow-delay=".1s
+              "
+            >
               <h2 class="jh uj ah wg ok ml ka">Our Offering</h2>
               <p class="kh ug pl eh rl">
                 Dynius offers cutting-edge AI-driven SaaS products and top-tier consulting services, empowering businesses in various industries to embrace Artificial Intelligence.
               </p>
-              <div class="f qd sd">
-                <div id="counter">
-                  <div class="count">
-                    <span id="countNumber">0</span>
+              <div class="flex justify-between mt-10 space-x-14">
+                  <div class="ec lm/2 if">
+                      <div class="sg bn qa yl wow fadeInUp" data-wow-delay=".15s">
+                          <img src="images/about-image-2.svg" alt="about image" class="sc ea zl" />
+                      </div>
                   </div>
-                </div>
-              </div>
+                  <div class="">
+                    <span id="countNumber" class="text-8xl text-white flex justify-center mt-14">7</span>
+                    <p class="text-xs text-white">Innovative AI Project currently running</p>
+                  </div>           
+                  <div class="ec lm/2 if">
+                    <div class="sg bn qa yl wow fadeInUp" data-wow-delay=".15s">
+                        <img src="images/about-image-2.svg" alt="about image" class="sc ea zl" />
+                    </div>
+                  </div>
+              </div>  
+            </div>   
             </div>
           </div>
         </div>
-        <div class="mb pd ba">
+        <div class="mb pd ba -mt-36">
           <div class="ec if">
             <div class="ea ad wd ud wow fadeInUp" data-wow-delay=".15s">
             </div>
@@ -275,62 +288,56 @@
       </div>
     </section>
     
-    <!-- ====== Video Section End -->
+    <!-- ====== page 2 Section End -->
 
     <!-- ====== Brands Section Start -->
     <section class="qg">
       <div class="a">
-        <div class="mb pd ba">
-          <div class="ec if">
-            <div
-              class="oe qj sj wd mb pd qd sd jf rf mk il jl co 2xl:ud-py-[60px] 2xl:ud-px-[70px] wow fadeInUp"
-              data-wow-delay=".1s
-              "
-            >
-              <a
-          
-                rel="nofollow noreferrer"
-                class="mb qd sd om zn 2xl:ud-max-w-[160px] ha ck qn 2xl:ud-mx-8 yf zh _i qh yi xj bk ai"
-              >
-                <img src="images/assets/EQlogo1HD.png" alt="EQlogo1HD" />
-              </a>
-              <a
-               
-                rel="nofollow noreferrer"
-                class="mb qd sd om zn 2xl:ud-max-w-[160px] ha ck qn 2xl:ud-mx-8 yf zh _i qh yi xj bk ai"
-              >
-                <img src="images/assets/Finwave_Logo_WhiteCrimson_hires.png" alt="Finwave_Logo_WhiteCrimson_hires" />
-              </a>
-              <a
-                
-                rel="nofollow noreferrer"
-                class="mb qd sd om zn 2xl:ud-max-w-[160px] ha ck qn 2xl:ud-mx-8 yf zh _i qh yi xj bk ai"
-              >
-                <img src="images/assets/Lutech Logo Original.png" alt="Lutech" />
-              </a>
-              <a
-                href="https://ayroui.com"
-                target="_blank"
-                rel="nofollow noreferrer"
-                class="mb qd sd om zn 2xl:ud-max-w-[160px] ha ck qn 2xl:ud-mx-8 yf zh _i qh yi xj bk ai"
-              >
-                <img src="images/ayroui.svg" alt="ayroui" />
-              </a>
-              <a
-                href="https://plainadmin.com"
-                target="_blank"
-                rel="nofollow noreferrer"
-                class="mb qd sd om zn 2xl:ud-max-w-[160px] ha ck qn 2xl:ud-mx-8 yf zh _i qh yi xj bk ai"
-              >
-                <img src="images/plainadmin.svg" alt="plainadmin" />
-              </a>
-            </div>
+          <div class="mb pd ba">
+              <div class="ec if">
+                  <h2 class="flex text-center justify-center text-lg text-white">Our partners:</h2>
+                  <div class="flex justify-center flex-row mt-4"> 
+                    <div class="w-1/3 px-4 2xl:ud-max-w-[160px] ha ck qn 2xl:ud-mx-8 yf zh _i qh yi xj bk ai">
+                        <a rel="nofollow noreferrer">
+                            <img src="images/assets/EQlogo1HD.png" alt="EQlogo1HD" />
+                        </a>
+                    </div>
+                    <div class="w-1/3 px-4 2xl:ud-max-w-[160px] ha ck qn 2xl:ud-mx-8 yf zh _i qh yi xj bk ai">
+                        <a rel="nofollow noreferrer">
+                            <img src="images/assets/Finwave_Logo_WhiteCrimson_hires.png" alt="Finwave_Logo_WhiteCrimson_hires" />
+                        </a>
+                    </div>
+                    <div class="w-1/3 px-4 2xl:ud-max-w-[160px] ha ck qn 2xl:ud-mx-8 yf zh _i qh yi xj bk ai">
+                        <a rel="nofollow noreferrer">
+                            <img src="images/assets/Lutech Logo Original.png" alt="Lutech" />
+                        </a>
+                    </div>
+                </div>
+                      <div class="flex justify-center flex-row mt-4">
+                          <div class="w-1/3 px-4 2xl:ud-max-w-[160px] ha ck qn 2xl:ud-mx-8 yf zh _i qh yi xj bk ai">
+                              <a rel="nofollow noreferrer">
+                                  <img src="images/assets/Lutech Logo Original.png" alt="Lutech" />
+                              </a>
+                          </div>
+                          <div class="w-1/3 px-4 2xl:ud-max-w-[160px] ha ck qn 2xl:ud-mx-8 yf zh _i qh yi xj bk ai">
+                              <a href="https://ayroui.com" target="_blank" rel="nofollow noreferrer">
+                                  <img src="images/ayroui.svg" alt="ayroui" />
+                              </a>
+                          </div>             
+                          <div class="w-1/3 px-4 m-3xl:ud-max-w-[160px] ha ck qn 2xl:ud-mx-8 yf zh _i qh yi xj bk ai">
+                              <a href="https://plainadmin.com" target="_blank" rel="nofollow noreferrer">
+                                  <img src="images/plainadmin.svg" alt="plainadmin" />
+                              </a>
+                          </div>
+                    </div>
+                  </div>
+              </div>
           </div>
-        </div>
       </div>
-    </section>
-    <!-- ====== Brands Section End -->
+  </section>
 
+  <!-- ====== Brands Section End -->
+  
     <!-- ====== About Section 1 Start -->
     <section id="about" class="fg">
       <div class="a">
@@ -338,11 +345,10 @@
           <div class="mb pd qd ba">
             <div class="ec lm/2 if">
               <div class="qa yl wc wow fadeInUp" data-wow-delay=".15s">
-                <h2
-                  class="jh uj ah wg ok ml dn lo fh tk ql hn po ta"
-                >ySathi <br>
+                <h2 class="jh uj ah wg ok ml dn lo fh tk ql hn po ta">
+                  <span style="color: #34e3b1;">ySathi</span> <br>
                   Your Virtual Employee
-                </h2>
+                </h2>                                             
                 <p class="bh kh ug pk eh sk ua">
                   ySathi is a versatile, AI-powered virtual assistant designed to boost your employees' productivity and enable them to focus on more value-adding and creative activities.
 
@@ -439,8 +445,8 @@
               <div class="xc wow fadeInUp" data-wow-delay=".2s">
                 <div class="ja">  
                   <div class="nc _b mb qd sd wd qe ve la mh" style="float: left; margin-right: 20px;">
-                    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--emojione-monotone" preserveAspectRatio="xMidYMid meet" fill="#2e704e" stroke="#2e704e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M61.468 5.774c-.286-.339-.69-.415-.998-.415c-.25 0-.436.051-.436.051l-.31.13l.313-2.04l-2.656 1.112l.365-2.497l-2.626 1.019c-.188-1.708-2.156-.981-2.156-.981l-23.066 7.965s-.827-1.836-1.597-2.933c-1.79-2.562-4.854-1.776-4.854-1.776L5.855 11.096s-2.43 1.011-3.421 3.693c-.978 2.646 0 5.868 0 5.868l9.738 41.322l.03-.022l.009.043l44.566-31.459l5.18-23.138c0-.001.258-.748-.489-1.629M6.919 22.836l49.669-19.27l-.215 1.469l-48.45 20.287l1.625 14.014l-2.629-16.5m3.333 14.423l-1.316-11.35L58.858 5.005l-.147.961l-22.265 9.366s-1.398 5.612-4.234 7.086c-3.093 1.606-17.594 8.702-17.594 8.702s-2.064 1.221-3.257 3.186c-.604 1.001-.932 2.119-1.109 2.953m44.852-7.824L14.117 58.26l-2.175-19.763c.055-.468.283-2.003 1.024-3.229c.834-1.375 2.282-2.339 2.563-2.517c1.298-.635 14.561-7.129 17.551-8.682c2.798-1.454 4.341-5.494 4.926-7.37l22.023-9.265l-4.925 22.001" fill="#6fe2ac"></path></g></svg>
-                </div>
+                    <img src="images/file.svg" alt="Icon" width="80" height="41" class="ze">
+                  </div>
                   <h3 class="ah jh uj xg rk en mo ka"> Locate lost documents or emails </h3>
                   <p class="kh ug pk eh sk bh">
                     Ask ySathi to locate and summarize crucial information or lost emails or documents instantly.  
@@ -448,8 +454,8 @@
                 </div>
               <div class="ja">  
                 <div class="nc _b mb qd sd wd qe ve la mh" style="float: left; margin-right: 20px;">
-                  <svg fill="#98ecc5" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg" stroke="#98ecc5"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M 29.0899 25.9375 L 47.5118 15.3672 C 43.5742 9.2266 36.8008 5.0547 29.0899 4.7031 Z M 27.9883 51.2969 C 33.6836 51.2969 38.9102 49.2110 42.9883 45.7891 L 26.5118 29.6641 C 26.0664 29.2422 25.9492 28.8438 25.9492 28.2109 L 25.9492 4.7734 C 14.1133 5.8047 4.7383 15.8360 4.7383 27.9766 C 4.7383 40.7969 15.2149 51.2969 27.9883 51.2969 Z M 45.3086 43.5156 C 48.9884 39.3907 51.2617 33.9297 51.2617 27.9766 C 51.2617 24.4609 50.4649 21.1094 49.0585 18.0860 L 30.4258 28.8203 Z"></path></g></svg>
-              </div>
+                  <img src="images/circle.svg" alt="Icon" width="80" height="41" class="ze">
+                </div>
                 <h3 class="ah jh uj xg rk en mo ka">Get neat statistics in seconds </h3>
                 <p class="kh ug pk eh sk bh">
                   Ask ySathi to summarize your 5-year marketing costs, comparing them to industry averages.
@@ -457,8 +463,8 @@
               </div>
               <div class="wa">
                 <div class="nc _b mb qd sd wd qe ve la mh" style="float: left; margin-right: 20px;">
-                 <svg height="200px" width="200px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 29.237 29.237" xml:space="preserve" fill="#a4f4b8"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path style="fill:#76d697;" d="M7.685,24.819H8.28v-2.131h3.688v2.131h0.596v-2.131h3.862v2.131h0.597v-2.131h4.109v2.131h0.595 v-2.131h3.417v-0.594h-3.417v-3.861h3.417v-0.596h-3.417v-3.519h3.417v-0.594h-3.417v-2.377h-0.595v2.377h-4.109v-2.377h-0.597 v2.377h-3.862v-2.377h-0.596v2.377H8.279v-2.377H7.685v2.377H3.747v0.594h3.938v3.519H3.747v0.596h3.938v3.861H3.747v0.594h3.938 V24.819z M12.563,22.094v-3.861h3.862v3.861H12.563z M21.132,22.094h-4.109v-3.861h4.109V22.094z M21.132,14.118v3.519h-4.109 v-3.519C17.023,14.119,21.132,14.119,21.132,14.118z M16.426,14.118v3.519h-3.862v-3.519 C12.564,14.119,16.426,14.119,16.426,14.118z M8.279,14.118h3.688v3.519H8.279V14.118z M8.279,18.233h3.688v3.861H8.279V18.233z"></path> <path style="fill:#76d697;" d="M29.207,2.504l-4.129,0.004L24.475,2.51v2.448c0,0.653-0.534,1.187-1.188,1.187h-1.388 c-0.656,0-1.188-0.533-1.188-1.187V2.514l-1.583,0.002v2.442c0,0.653-0.535,1.187-1.191,1.187h-1.388 c-0.655,0-1.188-0.533-1.188-1.187V2.517l-1.682,0.004v2.438c0,0.653-0.534,1.187-1.189,1.187h-1.389 c-0.653,0-1.188-0.533-1.188-1.187V2.525H8.181v2.434c0,0.653-0.533,1.187-1.188,1.187H5.605c-0.656,0-1.189-0.533-1.189-1.187 V2.53L0,2.534v26.153h2.09h25.06l2.087-0.006L29.207,2.504z M27.15,26.606H2.09V9.897h25.06V26.606z"></path> <path style="fill:#76d697;" d="M5.605,5.303h1.388c0.163,0,0.296-0.133,0.296-0.297v-4.16c0-0.165-0.133-0.297-0.296-0.297H5.605 c-0.165,0-0.298,0.132-0.298,0.297v4.16C5.307,5.17,5.44,5.303,5.605,5.303z"></path> <path style="fill:#76d697;" d="M11.101,5.303h1.389c0.164,0,0.297-0.133,0.297-0.297v-4.16c-0.001-0.165-0.134-0.297-0.298-0.297 H11.1c-0.163,0-0.296,0.132-0.296,0.297v4.16C10.805,5.17,10.938,5.303,11.101,5.303z"></path> <path style="fill:#76d697;" d="M16.549,5.303h1.388c0.166,0,0.299-0.133,0.299-0.297v-4.16c-0.001-0.165-0.133-0.297-0.299-0.297 h-1.388c-0.164,0-0.297,0.132-0.297,0.297v4.16C16.252,5.17,16.385,5.303,16.549,5.303z"></path> <path style="fill:#76d697;" d="M21.899,5.303h1.388c0.164,0,0.296-0.133,0.296-0.297v-4.16c0-0.165-0.132-0.297-0.296-0.297 h-1.388c-0.164,0-0.297,0.132-0.297,0.297v4.16C21.603,5.17,21.735,5.303,21.899,5.303z"></path> </g> </g> </g></svg>
-              </div>
+                  <img src="images/calender.svg" alt="Icon" width="80" height="41" class="ze">
+                </div>
                 <h3 class="ah jh uj xg rk en mo ka">Discover your ideal travel itineraries                </h3>
                 <p class="kh ug pk eh sk bh">
                   Ask ySathi to craft personalized travel itineraries aligned with your Outlook calendar.
@@ -478,12 +484,10 @@
           <div class="mb pd qd ba">
             <div class="ec lm/2 if">
               <div class="qa yl wc wow fadeInUp" data-wow-delay=".15s">
-                <h2
-                  class="jh uj ah wg ok ml dn lo fh tk ql hn po ta"
-                >Milana <br>
-                Match Payments in Seconds
-                
-                </h2>
+                <h2 class="jh uj ah wg ok ml dn lo fh tk ql hn po ta">
+                  <span style="color: #f2ad36;">Milana</span> <br>
+                  Match Payments in Seconds
+                </h2>                
                 <p class="bh kh ug pk eh sk ua">
                   Our generative AI-based invoice matching solution enables you to find matching payments and invoices faster and with higher accuracy.
                 </p>
@@ -579,8 +583,8 @@
               <div class="xc wow fadeInUp" data-wow-delay=".2s">
                 <div class="ja">  
                   <div class="nc _b mb qd sd wd qe ve la mh" style="float: left; margin-right: 20px;">
-                    <svg fill="#e2b63c" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke="#e2b63c"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm5.676,8.237-6,5.5a1,1,0,0,1-1.383-.03l-3-3a1,1,0,1,1,1.414-1.414l2.323,2.323,5.294-4.853a1,1,0,1,1,1.352,1.474Z"></path></g></svg>
-                </div>
+                    <img src="images/Check-Cirlcle.svg" alt="Icon" width="80" height="41" class="ze">
+                  </div>
                   <h3 class="ah jh uj xg rk en mo ka">Simple matches with no effort </h3>
                   <p class="kh ug pk eh sk bh">
                     Milana handles simple cases effortlessly with only minimal involvement of your employees.
@@ -588,8 +592,8 @@
                 </div>
               <div class="ja">  
                 <div class="nc _b mb qd sd wd qe ve la mh" style="float: left; margin-right: 20px;">
-                  <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="#e5c215" stroke="#e5c215"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#deb00d" d="M304.28 29.19l-12.523 80.56 8.06 55.25h165.347l-8.61-97.642-35.503 19.42 5.786 51.58L411.94 83.1l-38.042-40.565zM121 43.144v84.408h28.246c-5.08-29.13-12.29-58.546-28.246-84.407zm135.28 58.695l-16 61.808-.243 1.354h53.313l-12.674-45.357zM61.362 145.55l8.7 21.45h85.648l17.4-21.45zM18 183v18h476v-18zm212.39 36l-6.11 34.19 7.308 39.683-39.31 64.613 16 71.705 32-16 14.656-22.713 3.584-13.707-7.264-53.698 24.447 49.52-3.528 51.95 16.107 36.65L336 489.68l19.69-31.145 4.47-41.22 13.32 54.576 37.813-9.452-6.934-167.79 14.988 99.475 28.93-28.932 23.507-144-.258-2.19h-73.912l1.44 6.71-23.49 101.577 7.693-96.355L372.252 219zm50.807 10.096l23.34 17.877 4.967 17.382-9.436 44.2-5.463-49.662z"></path></g></svg>
-              </div>
+                  <img src="images/iceberg.svg" alt="Icon" width="80" height="41" class="ze">
+                </div>
                 <h3 class="ah jh uj xg rk en mo ka">Efficiently handle complex cases </h3>
                 <p class="kh ug pk eh sk bh">
                   By suggesting potential matches, Milana also significantly cuts down time for complex cases
@@ -597,8 +601,8 @@
               </div>
               <div class="wa">
                 <div class="nc _b mb qd sd wd qe ve la mh" style="float: left; margin-right: 20px;">
-                  <svg fill="#deac21" height="200px" width="200px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 216 256" xml:space="preserve" stroke="#deac21"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M117.2,102.9c-4.6,11-17.2,16.1-28.2,11.5c-11-4.6-16.1-17.2-11.5-28.2c4.6-11,17.2-16.1,28.2-11.5 C116.7,79.3,121.8,91.9,117.2,102.9C117.2,102.9,117.2,102.9,117.2,102.9z M213.9,154.6c0,4.3-3.5,7.8-7.8,7.8c0,0,0,0,0,0h-12.7 v26.8c0,20.8-16.9,37.7-37.7,37.7c0,0,0,0,0,0h-15V254h-102v-81.1C-2.8,140.2-10,80.1,22.6,38.5C40.7,15.5,68.4,2,97.7,2 c43.4,0,83.4,32.6,91.7,68.4c1.9,8,4,28.8,4,28.8l19.9,52.4C213.7,152.5,213.9,153.5,213.9,154.6L213.9,154.6z M138.2,87.8l12.2-7.6 l-5.1-12.5l-14.1,3.2c-2.7-3.8-6-7.2-9.8-9.9l3.3-14l-12.5-5.2l-7.7,12.2c-4.6-0.8-9.4-0.8-14-0.1L83,41.5l-12.6,5.1l3.2,14 c-3.8,2.7-7.2,6-9.9,9.8l-14-3.3l-5.3,12.5l12.2,7.7c-0.8,4.6-0.8,9.4-0.1,14L44.3,109l5.1,12.5l14-3.2c2.7,3.8,6,7.2,9.8,9.9 l-3.3,14l12.5,5.2l7.7-12.2c4.6,0.8,9.4,0.8,14,0.1l7.6,12.2l12.5-5.1l-3.2-14.1c3.8-2.7,7.2-6,9.9-9.8l14,3.3l5.2-12.5l-12.2-7.7 C139,97.1,139,92.4,138.2,87.8z"></path> </g></svg>
-              </div>
+                  <img src="images/head.svg" alt="Icon" width="80" height="41" class="ze">
+                </div>
                 <h3 class="ah jh uj xg rk en mo ka">Intelligent learning </h3>
                 <p class="kh ug pk eh sk bh">
                   Our solution improves over time by learning from your employees' feedback.
@@ -618,9 +622,8 @@
           <div class="mb pd qd ba">
             <div class="ec lm/2 if">
               <div class="qa yl wc wow fadeInUp" data-wow-delay=".15s">
-                <h2
-                  class="jh uj ah wg ok ml dn lo fh tk ql hn po ta"
-                >Hera <br>
+                <h2 class="jh uj ah wg ok ml dn lo fh tk ql hn po ta">
+                  <span style="color: #3b54f0;">Hera</span> <br>
                 Estimate Expected Credit Loss                
                 </h2>
                 <p class="bh kh ug pk eh sk ua">
@@ -736,8 +739,8 @@
                 </div>
               <div class="wa">
                 <div class="nc _b mb qd sd wd qe ve la mh" style="float: left; margin-right: 20px;">
-                  <svg fill="#3b54f0" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#3b54f0"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>chart-line-down</title> <path d="M11.079 17.942c0.12 0.264 0.381 0.444 0.685 0.444 0.087 0 0.17-0.015 0.248-0.042l-0.005 0.002 4.326-1.479 6.934 7.384h-2.811c-0.414 0-0.75 0.336-0.75 0.75s0.336 0.75 0.75 0.75v0h4.545c0.191-0.002 0.365-0.076 0.495-0.196l-0 0 0.019-0.008 0.004-0.008c0.131-0.127 0.215-0.302 0.225-0.497l0-0.002 0.005-0.024 0.003-0.017v-4.545c0-0.414-0.336-0.75-0.75-0.75s-0.75 0.336-0.75 0.75v0 2.65l-7.155-7.619c-0.138-0.146-0.332-0.236-0.548-0.236-0.086 0-0.169 0.015-0.247 0.041l0.005-0.002-4.137 1.415-4.484-10.012c-0.12-0.263-0.381-0.442-0.684-0.442-0.414 0-0.75 0.336-0.75 0.75 0 0.111 0.024 0.216 0.067 0.31l-0.002-0.005zM30 29.25h-27.25v-27.25c0-0.414-0.336-0.75-0.75-0.75s-0.75 0.336-0.75 0.75v0 28c0 0.414 0.336 0.75 0.75 0.75h28c0.414 0 0.75-0.336 0.75-0.75s-0.336-0.75-0.75-0.75v0z"></path> </g></svg>
-              </div>
+                  <img src="images/graph.svg" alt="Icon" width="80" height="45" class="ze"> 
+                </div>
                 <h3 class="ah jh uj xg rk en mo ka">  Estimate expected credit loss</h3>
                 <p class="kh ug pk eh sk bh">
                   Hera offers a holistic view of anticipated credit losses in the event of default.
@@ -756,65 +759,70 @@
       <div class="a">
         <div class="mb pd ba">
           <div class="ec if">
-            <div class="ea wc sg db wow fadeInUp" data-wow-delay=".1s">
-              <h2 class="jh uj ah wg ok ml ka">AI4YOU <br>
+            <div class="ea wc sg db wow fadeInUp" data-wow-delay=".2s">
+              <h2 class="jh uj ah wg ok ml ka">
+                <span style="color: #a22de1;">AI4YOU</span> <br>
                 Consulting Services
                 </h2>
               <p class="kh ug pl eh rl">
                 With its consulting division, Dynius helps businesses embark on their AI journeys by enhancing existing processes and infrastructure or creating tailor-made solutions.
               </p> <br>
               <div class="mb pd ia">
-                <div class="ec gk/2 gm yn/2 kf">
-                  <p class="mb qd kh zg bh ra">
-                    <span class="gc vb mb qd sd wd qe ve mh va">
-                      <svg width="16" height="13" viewBox="0 0 16 13" class="ze">
-                        <path
-                          d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z"
-                        />
-                      </svg>
-                    </span>
-                    Fast results
-                  </p>
-                  <p class="mb qd kh zg bh ra">
-                    <span class="gc vb mb qd sd wd qe ve mh va">
-                      <svg width="16" height="13" viewBox="0 0 16 13" class="ze">
-                        <path
-                          d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z"
-                        />
-                      </svg>
-                    </span>
-                    Short time-to-value
-                  </p>
-                  <p class="mb qd kh zg bh ra">
-                    <span class="gc vb mb qd sd wd qe ve mh va">
-                      <svg width="16" height="13" viewBox="0 0 16 13" class="ze">
-                        <path
-                          d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z"
-                        />
-                      </svg>
-                    </span>
-                    Highly skilled staff
-                  </p>
-                  <p class="mb qd kh zg bh ra">
-                    <span class="gc vb mb qd sd wd qe ve mh va">
-                      <svg width="16" height="13" viewBox="0 0 16 13" class="ze">
-                        <path
-                          d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z"
-                        />
-                      </svg>
-                    </span>
-                    Great track record
-                  </p>
+                <div class="flex-auto ec gk/2 gm yn/2 kf">
+                    <div class="text-left">
+                    <p class="mb qd kh zg bh ra">
+                      <span class="gc vb mb qd sd wd qe ve mh va">
+                        <svg width="16" height="13" viewBox="0 0 16 13" class="ze">
+                          <path
+                            d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z"
+                          />
+                        </svg>
+                      </span>
+                      Fast results
+                    </p>
+                    <p class="mb qd kh zg bh ra">
+                      <span class="gc vb mb qd sd wd qe ve mh va">
+                        <svg width="16" height="13" viewBox="0 0 16 13" class="ze">
+                          <path
+                            d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z"
+                          />
+                        </svg>
+                      </span>
+                      Short time-to-value
+                    </p>
+                  </div>
+
+                  <div class="text-right">
+                    <p class="mb qd kh zg bh ra">
+                      <span class="gc vb mb qd sd wd qe ve mh va">
+                        <svg width="16" height="13" viewBox="0 0 16 13" class="ze">
+                          <path
+                            d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z"
+                          />
+                        </svg>
+                      </span>
+                      Highly skilled staff
+                    </p>
+                    <p class="mb qd kh zg bh ra">
+                      <span class="gc vb mb qd sd wd qe ve mh va">
+                        <svg width="16" height="13" viewBox="0 0 16 13" class="ze">
+                          <path
+                            d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z"
+                          />
+                        </svg>
+                      </span>
+                      Great track record
+                    </p>
+                  </div>
                 </div>
             </div>
           </div>
         </div>
-
         <div class="mb pd ba">
           <div class="ec lm/2 if" style="width: 25%;">
             <div class="eb wow fadeInUp" data-wow-delay=".15s">
               <div class="nc _b mb qd sd wd qe ve la mh">
-                <img src="images/assets/Financial.svg" alt="Icon" width="40" height="41" class="ze">                
+                <img src="images/financial.svg" alt="Icon" width="80" height="41" class="ze">                
               </div>
               <h3 class="ah jh uj xg rk en mo ra">Financial Services </h3>
                 <p class="kh ug eh bh pg">
@@ -830,18 +838,10 @@
           </div>
           <div class="ec lm/2 if" style="width: 25%;">
             <div class="eb wow fadeInUp" data-wow-delay=".2s">
-              <div class="nc _b mb qd sd wd qe ve la mh">
-                <svg width="40" height="40" viewBox="0 0 40 40" class="ze">
-                  <path
-                    opacity="0.5"
-                    d="M20.5914 34.2584C20.2394 34.5172 19.7603 34.5175 19.408 34.2593L4.19163 23.1079C3.8395 22.8498 3.36065 22.85 3.00873 23.1084L1.09802 24.5111C0.553731 24.9107 0.553731 25.7237 1.09802 26.1233L19.4082 39.5655C19.7604 39.824 20.2396 39.824 20.5918 39.5655L38.9029 26.1226C39.4469 25.7232 39.4473 24.9107 38.9036 24.5109L36.9701 23.0889C36.6177 22.8298 36.1378 22.8297 35.7854 23.0888L20.5914 34.2584Z"
-                  />
-                  <path
-                    d="M19.408 28.931C19.7603 29.1896 20.2396 29.1894 20.5918 28.9306L36.3556 17.3466L38.8979 15.4883C39.4437 15.0894 39.4446 14.275 38.8996 13.8749L20.5918 0.43445C20.2396 0.175911 19.7604 0.175913 19.4082 0.434452L1.09706 13.8774C0.553051 14.2767 0.552712 15.0892 1.09638 15.4891L3.62222 17.3466L19.408 28.931Z"
-                  />
-                </svg>
+              <div class="nc _b mb qd sd wd qe ve la mh" style="color: purple;" >
+                <img src="images/insurance.png" alt="icon" width="60" height="20">
               </div>
-              <h3 class="ah jh uj xg rk en mo ra">Insurance</h3>
+              <h3 class="ah jh uj xg rk en mo ra" >Insurance</h3>
               <p class="kh ug eh bh pg">
                 Dynius assists clients in efficiently automating and streamlining  high-volume activities. <br>
                <br>
@@ -856,43 +856,38 @@
         <div class="ec lm/2 if" style="width: 25%;">
           <div class="eb wow fadeInUp" data-wow-delay=".25s">
             <div class="nc _b mb qd sd wd qe ve la mh">
-              <svg fill="#922aa7" height="200px" width="200px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 419.891 419.891" xml:space="preserve" stroke="#922aa7">
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
-                  <g> 
-                    <path d="M90.214,105.033c5.514,0,10.699-2.147,14.598-6.047c1.916-1.915,3.416-4.155,4.443-6.61 c7.85-0.185,15.2-3.326,20.765-8.893c4.397-4.396,7.29-9.935,8.396-15.95c8.382-0.414,16.205-3.876,22.182-9.854 c13.173-13.173,13.173-34.608,0-47.783C154.217,3.515,145.732,0,136.707,0s-17.51,3.515-23.892,9.896 c-5.98,5.98-9.442,13.867-9.855,22.183c-6.015,1.105-11.552,3.999-15.948,8.396c-7.131,7.131-10.191,17.121-8.434,26.855 c-1.055,0.722-2.044,1.543-2.962,2.46c-3.899,3.899-6.047,9.084-6.047,14.599s2.147,10.699,6.047,14.599 C79.515,102.886,84.699,105.033,90.214,105.033z"></path> <path d="M365.948,156.804c-1.278,0-3.212,0.409-5.161,2.358l-71.623,71.622v-66.915c0-4.639-3.12-7.065-6.202-7.065 c-1.278,0-3.212,0.409-5.161,2.358l-70.703,70.702v-65.995c0-4.639-3.12-7.065-6.202-7.065c-1.279,0-3.212,0.409-5.162,2.358 l-62.785,62.784V130.39c0-5.514-4.486-10-10-10H57.74c-5.514,0-10,4.486-10,10v279.501c0,5.514,4.486,10,10,10h304.412 c5.514,0,10-4.486,10-10V163.869C372.151,159.23,369.031,156.804,365.948,156.804z M147.244,353.862H86.008v-54.318h61.237V353.862 z M240.563,353.862h-61.237v-54.318h61.237V353.862z M333.883,353.862h-61.237v-54.318h61.237V353.862z"></path> 
-                  </g> 
-                </g>
-              </svg>
+              <img src="images/manufacturing.svg" alt="Icon" width="80" height="41" class="ze">
             </div>
               <h3 class="ah jh uj xg rk en mo ra">Manufacturing </h3>
-                <p class="kh ug eh bh pg">
+                <p class="text-m kh ug eh bh pg">
                   Dynius pushes the AI-driven business transformation by harnessing abundant operational and sensor data. <br>
                   <br>
-                  <b> Potential use cases:</b> <br>
-                  &nbsp;&nbsp;&bull;Predictive maintenance
-                  &nbsp;&nbsp;&bull;Waste reduction
-                  &nbsp;&nbsp;&bull;Process improvement
-                  &nbsp;&nbsp;&bull;Workflow monitoring
+                  <p class="text-m kh">
+                    <strong class="mr-1">Potential use cases:</strong><br>
+                    <span class="pl-4">&bull; Predictive maintenance</span><br>
+                    <span class="pl-4">&bull; Waste reduction</span><br>
+                    <span class="pl-4">&bull; Process improvement</span><br>
+                    <span class="pl-4">&bull; Workflow monitoring</span>
                 </p>
             </div>
           </div>
           <div class="ec lm/2 if" style="width: 25%;">
             <div class="eb wow fadeInUp" data-wow-delay=".25s">
               <div class="nc _b mb qd sd wd qe ve la mh">
-                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M8.96173 19.3707C6.01943 16.9714 2 13.0079 2 9.26044C2 3.3495 7.50016 0.662637 12 5.49877C16.4998 0.662637 22 3.34931 22 9.2604C22 13.008 17.9806 16.9714 15.0383 19.3707C13.7063 20.4569 13.0403 21 12 21C10.9597 21 10.2937 20.4569 8.96173 19.3707ZM10.0932 10.7463C10.1827 10.6184 10.2571 10.5122 10.3233 10.4213C10.3793 10.5188 10.4418 10.6324 10.517 10.7692L12.2273 13.8787C12.3933 14.1808 12.5562 14.4771 12.7197 14.6921C12.8947 14.9221 13.2023 15.2374 13.6954 15.2466C14.1884 15.2559 14.5077 14.9524 14.6912 14.7291C14.8627 14.5204 15.0365 14.2305 15.2138 13.9349L15.2692 13.8425C15.49 13.4745 15.629 13.2444 15.752 13.0782C15.8654 12.9251 15.9309 12.8751 15.9798 12.8475C16.0286 12.8198 16.1052 12.7894 16.2948 12.7709C16.5006 12.7509 16.7694 12.7501 17.1986 12.7501H18C18.4142 12.7501 18.75 12.4143 18.75 12.0001C18.75 11.5859 18.4142 11.2501 18 11.2501L17.1662 11.2501C16.7791 11.2501 16.4367 11.2501 16.1497 11.278C15.8385 11.3082 15.5357 11.3751 15.2407 11.5422C14.9457 11.7092 14.7325 11.9344 14.5465 12.1857C14.3749 12.4174 14.1988 12.711 13.9996 13.043L13.9521 13.1222C13.8654 13.2668 13.793 13.3872 13.7284 13.4906C13.6676 13.3849 13.5999 13.2618 13.5186 13.1141L11.8092 10.006C11.6551 9.7256 11.5015 9.44626 11.3458 9.24147C11.1756 9.01775 10.8839 8.72194 10.4164 8.6967C9.94887 8.67146 9.62698 8.93414 9.43373 9.13823C9.25683 9.32506 9.0741 9.58625 8.89069 9.84841L8.58131 10.2904C8.35416 10.6149 8.21175 10.8171 8.08848 10.9629C7.975 11.0971 7.91193 11.1411 7.86538 11.1653C7.81882 11.1896 7.74663 11.216 7.57159 11.232C7.38144 11.2494 7.13413 11.2501 6.73803 11.2501H6C5.58579 11.2501 5.25 11.5859 5.25 12.0001C5.25 12.4143 5.58579 12.7501 6 12.7501L6.76812 12.7501C7.12509 12.7501 7.44153 12.7501 7.70801 12.7258C7.99707 12.6994 8.27904 12.6411 8.55809 12.4958C8.83714 12.3505 9.04661 12.153 9.234 11.9313C9.40676 11.7269 9.58821 11.4677 9.79291 11.1752L10.0932 10.7463Z" fill="#a528c8"></path> 
-                </g>
-              </svg>
+                <img src="images/healthcare.svg" alt="Icon" width="80" height="41" class="ze">
               </div>
               <h3 class="ah jh uj xg rk en mo ra">Healthcare</h3>
                 <p class="kh ug eh bh pg">
                   Dynius provides AI-tools to medical professionals to enhance their capabilities and effectiveness.<br>
                   <br>
-                  <b> Potential use cases:</b> <br>
-                  &nbsp;&nbsp;&bull;Early disease detection
-                  &nbsp;&nbsp;&bull;Innovative drug discovery<br>
-                  &nbsp;&nbsp;&bull;Personalized medicine <br>
-                  &nbsp;&nbsp;&bull;Waste and error reduction
+                  <p class="text-m kh">
+                    <strong class="mr-1">Potential use cases:</strong><br>
+                    <span class="pl-4">&bull; Early disease detection</span><br>
+                    <span class="pl-4">&bull; Innovative drug discovery</span><br>
+                    <span class="pl-4">&bull; Personalized medicine</span><br>
+                    <span class="pl-4">&bull; Waste and error reduction</span>
                 </p>
+                
                   
             </div>
           </div>
@@ -919,112 +914,67 @@
           <div class="ec _k/2 lm/3 if">
             <div class="eb wow fadeInUp" data-wow-delay=".15s">
               <div class="nc _b mb qd sd wd qe ve la mh">
-                <svg width="40" height="41" viewBox="0 0 40 41" class="ze">
-                  <path
-                    opacity="0.5"
-                    d="M37.7778 40.2223H24C22.8954 40.2223 22 39.3268 22 38.2223V20.0001C22 18.8955 22.8954 18.0001 24 18.0001H37.7778C38.8823 18.0001 39.7778 18.8955 39.7778 20.0001V38.2223C39.7778 39.3268 38.8823 40.2223 37.7778 40.2223Z"
-                  />
-                  <path
-                    d="M23.2222 0C22.6699 0 22.2222 0.447715 22.2222 1V12.3333C22.2222 12.8856 22.6699 13.3333 23.2222 13.3333H39C39.5523 13.3333 40 12.8856 40 12.3333V0.999999C40 0.447714 39.5523 0 39 0H23.2222ZM0 39C0 39.5523 0.447715 40 1 40H16.7778C17.3301 40 17.7778 39.5523 17.7778 39V27.6667C17.7778 27.1144 17.3301 26.6667 16.7778 26.6667H1C0.447716 26.6667 0 27.1144 0 27.6667V39ZM0 21.2222C0 21.7745 0.447715 22.2222 1 22.2222H16.7778C17.3301 22.2222 17.7778 21.7745 17.7778 21.2222V0.999999C17.7778 0.447714 17.3301 0 16.7778 0H1C0.447716 0 0 0.447715 0 1V21.2222Z"
-                  />
-                </svg>
+                <img src="images/shield.svg" alt="Icon" width="80" height="41" class="ze">
               </div>
               <h3 class="ah jh uj xg rk en mo ra">Secure and Private</h3>
               <p class="kh ug eh bh pg">
                 Our AI models prioritize security and privacy, ensuring your data remains confidential and protected.
-               </p>
+              </p>
             </div>
           </div>
           <div class="ec _k/2 lm/3 if">
             <div class="eb wow fadeInUp" data-wow-delay=".2s">
               <div class="nc _b mb qd sd wd qe ve la mh">
-                <svg width="40" height="40" viewBox="0 0 40 40" class="ze">
-                  <path
-                    opacity="0.5"
-                    d="M20.5914 34.2584C20.2394 34.5172 19.7603 34.5175 19.408 34.2593L4.19163 23.1079C3.8395 22.8498 3.36065 22.85 3.00873 23.1084L1.09802 24.5111C0.553731 24.9107 0.553731 25.7237 1.09802 26.1233L19.4082 39.5655C19.7604 39.824 20.2396 39.824 20.5918 39.5655L38.9029 26.1226C39.4469 25.7232 39.4473 24.9107 38.9036 24.5109L36.9701 23.0889C36.6177 22.8298 36.1378 22.8297 35.7854 23.0888L20.5914 34.2584Z"
-                  />
-                  <path
-                    d="M19.408 28.931C19.7603 29.1896 20.2396 29.1894 20.5918 28.9306L36.3556 17.3466L38.8979 15.4883C39.4437 15.0894 39.4446 14.275 38.8996 13.8749L20.5918 0.43445C20.2396 0.175911 19.7604 0.175913 19.4082 0.434452L1.09706 13.8774C0.553051 14.2767 0.552712 15.0892 1.09638 15.4891L3.62222 17.3466L19.408 28.931Z"
-                  />
-                </svg>
+                <img src="images/data.svg" alt="Icon" width="80" height="41" class="ze">
               </div>
-              <h3 class="ah jh uj xg rk en mo ra">High-quality Design</h3>
+              <h3 class="ah jh uj xg rk en mo ra">Private Cloud or On Prem
+              </h3>
               <p class="kh ug eh bh pg">
-                Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.
+                Choose the deployment option that suits your needs best, whether it’s a secure private cloud infrastructure or on-premise solutions for maximum control. 
               </p>
             </div>
           </div>
           <div class="ec _k/2 lm/3 if">
             <div class="eb wow fadeInUp" data-wow-delay=".25s">
               <div class="nc _b mb qd sd wd qe ve la mh">
-                <svg width="40" height="40" viewBox="0 0 40 40" class="ze">
-                  <path
-                    opacity="0.5"
-                    d="M20 30C22.75 30 25 32.25 25 35C25 37.75 22.75 40 20 40C17.25 40 15 37.75 15 35C15 32.25 17.25 30 20 30ZM35 30C37.75 30 40 32.25 40 35C40 37.75 37.75 40 35 40C32.25 40 30 37.75 30 35C30 32.25 32.25 30 35 30ZM35 15C37.75 15 40 17.25 40 20C40 22.75 37.75 25 35 25C32.25 25 30 22.75 30 20C30 17.25 32.25 15 35 15Z"
-                  />
-                  <path
-                    d="M20 15C22.75 15 25 17.25 25 20C25 22.75 22.75 25 20 25C17.25 25 15 22.75 15 20C15 17.25 17.25 15 20 15ZM20 0C22.75 0 25 2.25 25 5C25 7.75 22.75 10 20 10C17.25 10 15 7.75 15 5C15 2.25 17.25 0 20 0ZM5 30C7.75 30 10 32.25 10 35C10 37.75 7.75 40 5 40C2.25 40 0 37.75 0 35C0 32.25 2.25 30 5 30ZM5 15C7.75 15 10 17.25 10 20C10 22.75 7.75 25 5 25C2.25 25 0 22.75 0 20C0 17.25 2.25 15 5 15ZM5 0C7.75 0 10 2.25 10 5C10 7.75 7.75 10 5 10C2.25 10 0 7.75 0 5C0 2.25 2.25 0 5 0ZM35 0C37.75 0 40 2.25 40 5C40 7.75 37.75 10 35 10C32.25 10 30 7.75 30 5C30 2.25 32.25 0 35 0Z"
-                  />
-                </svg>
+                <img src="images/check.svg" alt="Icon" width="80" height="41" class="ze">
               </div>
-              <h3 class="ah jh uj xg rk en mo ra">All Essential Components</h3>
+              <h3 class="ah jh uj xg rk en mo ra">Full Model Governance Control</h3>
               <p class="kh ug eh bh pg">
-                Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.
+                Gain complete control over your AI models with our robust governance features, allowing you to manage and monitor them effectively.
               </p>
             </div>
           </div>
           <div class="ec _k/2 lm/3 if">
             <div class="eb wow fadeInUp" data-wow-delay=".1s">
               <div class="nc _b mb qd sd wd qe ve la mh">
-                <svg width="40" height="42" viewBox="0 0 40 42" class="ze">
-                  <path
-                    opacity="0.5"
-                    d="M31.8943 25.3303C34.1233 25.3303 36.1497 26.1409 37.5682 27.762L39.1464 26.1839C39.4614 25.8689 39.9999 26.092 39.9999 26.5374V32.936C39.9999 33.2121 39.7761 33.436 39.4999 33.436H33.1014C32.6559 33.436 32.4328 32.8974 32.7478 32.5825L35.5418 29.7885C34.5286 28.9779 33.3128 28.37 31.8943 28.37C29.0573 28.37 26.8282 30.599 26.8282 33.436C26.8282 36.273 29.0573 38.5021 31.8943 38.5021C33.3549 38.5021 34.6511 37.844 35.6345 36.8244C35.8406 36.6107 36.1187 36.4756 36.4155 36.4756H38.6535C39.0072 36.4756 39.2477 36.833 39.0881 37.1487C37.7427 39.8107 35.0781 41.5417 31.8943 41.5417C27.4361 41.5417 23.7886 37.8941 23.7886 33.436C23.7886 28.9779 27.4361 25.3303 31.8943 25.3303Z"
-                  />
-                  <path
-                    d="M18.7226 33.436C18.7226 31.3572 19.2513 29.4548 19.9799 27.7285C20.0541 27.5529 19.9264 27.3567 19.7358 27.3567C15.8856 27.3567 12.6433 24.1144 12.6433 20.2642C12.6433 16.414 15.8856 13.1717 19.7358 13.1717C23.586 13.1717 26.8283 16.414 26.8283 20.2642C26.8283 20.5105 27.3897 21.0054 27.6246 20.9313C28.9274 20.5206 30.2827 20.2642 31.8943 20.2642C32.775 20.2642 33.6557 20.4173 34.5364 20.5905C34.7422 20.6309 34.9339 20.4739 34.9339 20.2642C34.9339 19.8699 34.9339 19.3904 34.8787 18.9362C34.827 18.5117 34.9599 18.0636 35.3001 17.8045L38.9868 14.9955C39.3921 14.5902 39.3921 14.1849 39.1894 13.7797L35.1857 6.77316C35.153 6.71599 35.1272 6.65499 35.1021 6.59411C34.9143 6.13895 34.5848 6.08618 34.1135 6.08007C33.9863 6.07841 33.86 6.10354 33.7419 6.15079L29.3957 7.88927C29.0613 8.02302 28.6829 7.96367 28.3887 7.75599C27.6155 7.21023 26.7521 6.75466 25.8752 6.31262C25.5838 6.16573 25.3813 5.88702 25.3335 5.56423L24.6729 1.10574C24.6265 0.792572 24.6613 0.389935 24.3993 0.212245C24.2235 0.0930361 23.9828 0 23.7886 0H15.6829C15.3021 0 14.7424 0.35783 14.6762 0.73726C14.6678 0.785579 14.6661 0.834927 14.6589 0.883445L13.9492 5.67408C13.894 6.04692 13.6313 6.35205 13.2873 6.50604C12.4439 6.88359 11.673 7.42345 10.8193 7.89265C10.5647 8.03264 10.26 8.04143 9.99178 7.92966L5.73545 6.15619C5.61358 6.10541 5.48273 6.07832 5.35072 6.08016C4.8506 6.08715 4.49147 6.1485 4.13234 6.68719L0.0794975 13.7797C-0.123145 14.1849 0.0794976 14.5902 0.484782 14.9955L4.34631 17.9376C4.59456 18.1268 4.74261 18.4216 4.7079 18.7317C4.65068 19.243 4.53762 19.8101 4.53762 20.2642C4.53762 20.6648 4.53762 21.1534 4.59561 21.614C4.64767 22.0276 4.52563 22.4644 4.20164 22.7267L0.484782 25.7355C0.0794976 26.1408 0.0794978 26.5461 0.28214 26.9514L4.33498 34.0439C4.5154 34.4047 4.85644 34.4443 5.35811 34.4486C5.48532 34.4497 5.61152 34.4249 5.72964 34.3776L10.0758 32.6392C10.4102 32.5054 10.7887 32.5648 11.0829 32.7724C11.8561 33.3182 12.7195 33.7738 13.5964 34.2158C13.8878 34.3627 14.0903 34.6414 14.1381 34.9642L14.8616 39.8476C14.8688 39.8961 14.871 39.9453 14.8768 39.994C14.9222 40.3734 15.3145 40.7311 15.8856 40.7311H19.13C19.9191 40.7311 20.4065 39.8523 20.0627 39.1421C19.1998 37.3593 18.7226 35.4573 18.7226 33.436Z"
-                  />
-                </svg>
+                <img src="images/scissors.svg" alt="Icon" width="80" height="41" class="ze">
               </div>
-              <h3 class="ah jh uj xg rk en mo ra">Speed Optimized</h3>
+              <h3 class="ah jh uj xg rk en mo ra">Tailor-Made</h3>
               <p class="kh ug eh bh pg">
-                Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.
+                We specialize in crafting AI solutions that are as unique as your business and your needs, addressing your specific challenges and objectives.
               </p>
             </div>
           </div>
           <div class="ec _k/2 lm/3 if">
             <div class="eb wow fadeInUp" data-wow-delay=".15s">
               <div class="nc _b mb qd sd wd qe ve la mh">
-                <svg width="40" height="40" viewBox="0 0 40 40" class="ze">
-                  <path
-                    opacity="0.5"
-                    d="M39 12C39.5523 12 40 12.4477 40 13V39C40 39.5523 39.5523 40 39 40H13C12.4477 40 12 39.5523 12 39V33C12 32.4477 12.4477 32 13 32H31C31.5523 32 32 31.5523 32 31V13C32 12.4477 32.4477 12 33 12H39Z"
-                  />
-                  <rect width="28" height="28" rx="1" />
-                </svg>
+                <img src="images/weightlift.svg" alt="Icon" width="80" height="41" class="ze">
               </div>
-              <h3 class="ah jh uj xg rk en mo ra">Fully Customizable</h3>
+              <h3 class="ah jh uj xg rk en mo ra">Stable Performance</h3>
               <p class="kh ug eh bh pg">
-                Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.
+                Count on consistent and reliable model performance to drive your business forward, independent of commercial models’ upgrades or updates.
               </p>
             </div>
           </div>
           <div class="ec _k/2 lm/3 if">
             <div class="eb wow fadeInUp" data-wow-delay=".2s">
               <div class="nc _b mb qd sd wd qe ve la mh">
-                <svg width="40" height="45" viewBox="0 0 40 45" class="ze">
-                  <path
-                    opacity="0.5"
-                    d="M31.579 37.8948C28.6737 37.8948 26.3158 35.5369 26.3158 32.6317C26.3158 31.9159 26.4527 31.2306 26.7135 30.6015C26.7959 30.4027 26.7605 30.1711 26.6083 30.019L24.9997 28.4103C24.7766 28.1872 24.4043 28.2238 24.2487 28.4983C23.5588 29.7145 23.1579 31.125 23.1579 32.6317C23.1579 37.2843 26.9263 41.0527 31.579 41.0527V43.0035C31.579 43.449 32.1175 43.6721 32.4325 43.3571L35.9622 39.8273C36.1575 39.6321 36.1575 39.3155 35.9622 39.1202L32.4325 35.5905C32.1175 35.2755 31.579 35.4986 31.579 35.9441V37.8948ZM31.579 24.2106V22.2598C31.579 21.8144 31.0404 21.5913 30.7254 21.9063L27.1957 25.436C27.0004 25.6313 27.0004 25.9479 27.1957 26.1431L30.7254 29.6729C31.0404 29.9879 31.579 29.7648 31.579 29.3193V27.3685C34.4842 27.3685 36.8421 29.7264 36.8421 32.6317C36.8421 33.3474 36.7052 34.0328 36.4444 34.6618C36.362 34.8606 36.3974 35.0922 36.5496 35.2444L38.1582 36.853C38.3813 37.0762 38.7536 37.0396 38.9092 36.7651C39.5991 35.5488 40 34.1384 40 32.6317C40 27.9791 36.2316 24.2106 31.579 24.2106Z"
-                  />
-                  <path
-                    d="M18.9474 32.6316C18.9474 35.4705 19.8099 38.0969 21.2941 40.2796C21.7904 41.0094 21.3054 42.1053 20.4229 42.1053H4.21053C1.87368 42.1053 0 40.2316 0 37.8947V4.21053C0 1.89474 1.87368 0 4.21053 0H6.31579H16.8421H29.4737C31.7895 0 33.6842 1.87368 33.6842 4.21053V17.9544C33.6842 18.5032 33.1804 18.9474 32.6316 18.9474C25.0737 18.9474 18.9474 25.0737 18.9474 32.6316Z"
-                  />
-                </svg>
+                <img src="images/package-cubes.svg" alt="Icon" width="80" height="41" class="ze">
               </div>
-              <h3 class="ah jh uj xg rk en mo ra">Regular Updates</h3>
+              <h3 class="ah jh uj xg rk en mo ra">Scalable</h3>
               <p class="kh ug eh bh pg">
-                Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.
+                As adoption expands, our AI solutions can effortlessly scale or be deployed across different business units as required.
               </p>
             </div>
           </div>
@@ -1619,8 +1569,10 @@
     </section> -->
     <!-- ====== Pricing Section End -->
 
+    
     <!-- ====== Blog Section Start -->
-    <!-- <section id="blog" class="bg-primary ue fg mg">
+  
+  <!-- <section id="blog" class="bg-primary ue fg mg">
       <div class="a">
         <div class="mb pd ba">
           <div class="ec if">
@@ -1757,7 +1709,9 @@
         </div>
       </div>
     </section> -->
-    <!-- ====== Blog Section End -->
+  
+<!-- ====== Blog Section end -->
+  
 
     <!-- ====== Contact Section Start -->
       <section id="Support" class="fg mg ud">
@@ -1840,81 +1794,12 @@
                         >
                             Talk to Us
                         </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+                    </div>              
+                  </div>
+              </div>      
+          </div>
     </section>
     
-              <div class="e g h z">
-                <svg width="370" height="596" viewBox="0 0 370 596" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <mask id="mask0_88:141" style="mask-type: alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="370" height="596">
-                    <rect width="370" height="596" rx="2" fill="#1D2144" />
-                  </mask>
-                  <g mask="url(#mask0_88:141)">
-                    <path opacity="0.15" d="M15.4076 50.9571L54.1541 99.0711L71.4489 35.1605L15.4076 50.9571Z" fill="url(#paint0_linear_88:141)" />
-                    <path opacity="0.15" d="M20.7137 501.422L44.6431 474.241L6 470.624L20.7137 501.422Z" fill="url(#paint1_linear_88:141)" />
-                    <path
-                      opacity="0.1"
-                      d="M331.676 198.309C344.398 204.636 359.168 194.704 358.107 180.536C357.12 167.363 342.941 159.531 331.265 165.71C318.077 172.69 318.317 191.664 331.676 198.309Z"
-                      fill="url(#paint2_linear_88:141)"
-                    />
-                    <g opacity="0.3">
-                      <path
-                        d="M209 89.9999C216 77.3332 235.7 50.7999 258.5 45.9999C287 39.9999 303 41.9999 314 30.4999C325 18.9999 334 -3.50014 357 -3.50014C380 -3.50014 395 4.99986 408.5 -8.50014C422 -22.0001 418.5 -46.0001 452 -37.5001C478.8 -30.7001 515.167 -45 530 -53"
-                        stroke="url(#paint3_linear_88:141)"
-                      />
-                      <path
-                        d="M251 64.9999C258 52.3332 277.7 25.7999 300.5 20.9999C329 14.9999 345 16.9999 356 5.49986C367 -6.00014 376 -28.5001 399 -28.5001C422 -28.5001 437 -20.0001 450.5 -33.5001C464 -47.0001 460.5 -71.0001 494 -62.5001C520.8 -55.7001 557.167 -70 572 -78"
-                        stroke="url(#paint4_linear_88:141)"
-                      />
-                      <path
-                        d="M212 73.9999C219 61.3332 238.7 34.7999 261.5 29.9999C290 23.9999 306 25.9999 317 14.4999C328 2.99986 337 -19.5001 360 -19.5001C383 -19.5001 398 -11.0001 411.5 -24.5001C425 -38.0001 421.5 -62.0001 455 -53.5001C481.8 -46.7001 518.167 -61 533 -69"
-                        stroke="url(#paint5_linear_88:141)"
-                      />
-                      <path
-                        d="M249 40.9999C256 28.3332 275.7 1.79986 298.5 -3.00014C327 -9.00014 343 -7.00014 354 -18.5001C365 -30.0001 374 -52.5001 397 -52.5001C420 -52.5001 435 -44.0001 448.5 -57.5001C462 -71.0001 458.5 -95.0001 492 -86.5001C518.8 -79.7001 555.167 -94 570 -102"
-                        stroke="url(#paint6_linear_88:141)"
-                      />
-                    </g>
-                  </g>
-                  <defs>
-                    <linearGradient id="paint0_linear_88:141" x1="13.4497" y1="63.5059" x2="81.144" y2="41.5072" gradientUnits="userSpaceOnUse">
-                      <stop stop-color="white" />
-                      <stop offset="1" stop-color="white" stop-opacity="0" />
-                    </linearGradient>
-                    <linearGradient id="paint1_linear_88:141" x1="28.1579" y1="501.301" x2="8.69936" y2="464.391" gradientUnits="userSpaceOnUse">
-                      <stop stop-color="white" />
-                      <stop offset="1" stop-color="white" stop-opacity="0" />
-                    </linearGradient>
-                    <linearGradient id="paint2_linear_88:141" x1="338" y1="167" x2="349.488" y2="200.004" gradientUnits="userSpaceOnUse">
-                      <stop stop-color="white" />
-                      <stop offset="1" stop-color="white" stop-opacity="0" />
-                    </linearGradient>
-                    <linearGradient id="paint3_linear_88:141" x1="369.5" y1="-53" x2="369.5" y2="89.9999" gradientUnits="userSpaceOnUse">
-                      <stop stop-color="white" />
-                      <stop offset="1" stop-color="white" stop-opacity="0" />
-                    </linearGradient>
-                    <linearGradient id="paint4_linear_88:141" x1="411.5" y1="-78" x2="411.5" y2="64.9999" gradientUnits="userSpaceOnUse">
-                      <stop stop-color="white" />
-                      <stop offset="1" stop-color="white" stop-opacity="0" />
-                    </linearGradient>
-                    <linearGradient id="paint5_linear_88:141" x1="372.5" y1="-69" x2="372.5" y2="73.9999" gradientUnits="userSpaceOnUse">
-                      <stop stop-color="white" />
-                      <stop offset="1" stop-color="white" stop-opacity="0" />
-                    </linearGradient>
-                    <linearGradient id="paint6_linear_88:141" x1="409.5" y1="-102" x2="409.5" y2="40.9999" gradientUnits="userSpaceOnUse">
-                      <stop stop-color="white" />
-                      <stop offset="1" stop-color="white" stop-opacity="0" />
-                    </linearGradient>
-                  </defs>
-                </svg>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     <!-- ====== Contact Section End -->
 
     <!-- ====== Footer Section Start -->
@@ -1922,102 +1807,49 @@
       <div class="a">
         <div class="mb pd ba">
           <div class="ec _k/2 hm/12 vn/12 if">
-            <div class="ma vc">
-              <a href="index.html" class="lb na">
-                <img src="images/logo-2.svg" alt="logo" class="ec ij" />
-                <img src="images/logo.svg" alt="logo" class="ec ob hj" />
-              </a>
-              <p class="kh ug bh zo ja">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis.</p>
+                <div class="ma vc mb-1">
+                  <a href="index.html" class="lb na">
+                    <img src="images/assets/LOGO DYNIUS pos_full.png" alt="logo" class="ec ij" />
+                    <img src="images/assets/LOGO DYNIUS neg_full.png" alt="logo" class="ec ob hj" />
+                  </a>
+                </div>
+                <div class="flex justify-between space-x-14">
+                  <p class="uj ">
+                      Dynius GmbH <br>
+                      Baarerstrasse 14,<br>
+                      6300 Zug,<br>
+                      Switzerland,<br>
+                      CHE-243.431.958
+                  </p>
+                  <p class="uj text-left">                   
+                      Dynius Italia s.r.l. <br>
+                      Viale Lunigiana 46 <br>
+                      20125 Milano <br>
+                      Italy <br>
+                      Partita IVA: 12291520968
+                  </p>
+              </div>
               <div class="mb qd">
-                <a href="javascript:void(0)" aria-label="social-link" class="lh ui oa">
-                  <svg width="9" height="18" viewBox="0 0 9 18" class="ze">
-                    <path
-                      d="M8.13643 7H6.78036H6.29605V6.43548V4.68548V4.12097H6.78036H7.79741C8.06378 4.12097 8.28172 3.89516 8.28172 3.55645V0.564516C8.28172 0.254032 8.088 0 7.79741 0H6.02968C4.11665 0 2.78479 1.58064 2.78479 3.92339V6.37903V6.94355H2.30048H0.65382C0.314802 6.94355 0 7.25403 0 7.70564V9.7379C0 10.1331 0.266371 10.5 0.65382 10.5H2.25205H2.73636V11.0645V16.7379C2.73636 17.1331 3.00273 17.5 3.39018 17.5H5.66644C5.81174 17.5 5.93281 17.4153 6.02968 17.3024C6.12654 17.1895 6.19919 16.9919 6.19919 16.8226V11.0927V10.5282H6.70771H7.79741C8.11222 10.5282 8.35437 10.3024 8.4028 9.96371V9.93548V9.90726L8.74182 7.95968C8.76604 7.7621 8.74182 7.53629 8.59653 7.31048C8.54809 7.16935 8.33016 7.02823 8.13643 7Z"
-                    />
-                  </svg>
-                </a>
-                <a href="javascript:void(0)" aria-label="social-link" class="lh ui oa">
-                  <svg width="19" height="14" viewBox="0 0 19 14" class="ze">
-                    <path
-                      d="M16.3024 2.26027L17.375 1.0274C17.6855 0.693493 17.7702 0.436644 17.7984 0.308219C16.9516 0.770548 16.1613 0.924658 15.6532 0.924658H15.4556L15.3427 0.821918C14.6653 0.282534 13.8185 0 12.9153 0C10.9395 0 9.3871 1.48973 9.3871 3.21062C9.3871 3.31336 9.3871 3.46747 9.41532 3.57021L9.5 4.0839L8.90726 4.05822C5.29435 3.95548 2.33065 1.13014 1.85081 0.642123C1.06048 1.92637 1.5121 3.15925 1.99194 3.92979L2.95161 5.36815L1.42742 4.5976C1.45565 5.67637 1.90726 6.52397 2.78226 7.14041L3.54435 7.65411L2.78226 7.93665C3.2621 9.24658 4.33468 9.78596 5.125 9.99144L6.16935 10.2483L5.18145 10.8647C3.60081 11.8921 1.625 11.8151 0.75 11.738C2.52823 12.8682 4.64516 13.125 6.1129 13.125C7.21371 13.125 8.03226 13.0223 8.22984 12.9452C16.1331 11.25 16.5 4.82877 16.5 3.54452V3.36473L16.6694 3.26199C17.629 2.44007 18.0242 2.00342 18.25 1.74658C18.1653 1.77226 18.0524 1.82363 17.9395 1.84932L16.3024 2.26027Z"
-                    />
-                  </svg>
-                </a>
-                <a href="javascript:void(0)" aria-label="social-link" class="lh ui oa">
-                  <svg width="18" height="14" viewBox="0 0 18 14" class="ze">
-                    <path
-                      d="M17.5058 2.07119C17.3068 1.2488 16.7099 0.609173 15.9423 0.395963C14.5778 7.26191e-08 9.0627 0 9.0627 0C9.0627 0 3.54766 7.26191e-08 2.18311 0.395963C1.41555 0.609173 0.818561 1.2488 0.619565 2.07119C0.25 3.56366 0.25 6.60953 0.25 6.60953C0.25 6.60953 0.25 9.68585 0.619565 11.1479C0.818561 11.9703 1.41555 12.6099 2.18311 12.8231C3.54766 13.2191 9.0627 13.2191 9.0627 13.2191C9.0627 13.2191 14.5778 13.2191 15.9423 12.8231C16.7099 12.6099 17.3068 11.9703 17.5058 11.1479C17.8754 9.68585 17.8754 6.60953 17.8754 6.60953C17.8754 6.60953 17.8754 3.56366 17.5058 2.07119ZM7.30016 9.44218V3.77687L11.8771 6.60953L7.30016 9.44218Z"
-                    />
-                  </svg>
-                </a>
-                <a href="javascript:void(0)" aria-label="social-link" class="lh ui oa">
-                  <svg width="17" height="16" viewBox="0 0 17 16" class="ze">
-                    <path
-                      d="M15.2196 0H1.99991C1.37516 0 0.875366 0.497491 0.875366 1.11936V14.3029C0.875366 14.8999 1.37516 15.4222 1.99991 15.4222H15.1696C15.7943 15.4222 16.2941 14.9247 16.2941 14.3029V1.09448C16.3441 0.497491 15.8443 0 15.2196 0ZM5.44852 13.1089H3.17444V5.7709H5.44852V13.1089ZM4.29899 4.75104C3.54929 4.75104 2.97452 4.15405 2.97452 3.43269C2.97452 2.71133 3.57428 2.11434 4.29899 2.11434C5.02369 2.11434 5.62345 2.71133 5.62345 3.43269C5.62345 4.15405 5.07367 4.75104 4.29899 4.75104ZM14.07 13.1089H11.796V9.55183C11.796 8.7061 11.771 7.58674 10.5964 7.58674C9.39693 7.58674 9.222 8.53198 9.222 9.47721V13.1089H6.94792V5.7709H9.17202V6.79076H9.19701C9.52188 6.19377 10.2466 5.59678 11.3711 5.59678C13.6952 5.59678 14.12 7.08925 14.12 9.12897V13.1089H14.07Z"
-                    />
-                  </svg>
-                </a>
+                  <a href="https://www.linkedin.com/company/dynius-ai" aria-label="LinkedIn" class="lh ui oa">
+                    <svg width="17" height="16" viewBox="0 0 17 16" class="ze">
+                      <path
+                        d="M15.2196 0H1.99991C1.37516 0 0.875366 0.497491 0.875366 1.11936V14.3029C0.875366 14.8999 1.37516 15.4222 1.99991 15.4222H15.1696C15.7943 15.4222 16.2941 14.9247 16.2941 14.3029V1.09448C16.3441 0.497491 15.8443 0 15.2196 0ZM5.44852 13.1089H3.17444V5.7709H5.44852V13.1089ZM4.29899 4.75104C3.54929 4.75104 2.97452 4.15405 2.97452 3.43269C2.97452 2.71133 3.57428 2.11434 4.29899 2.11434C5.02369 2.11434 5.62345 2.71133 5.62345 3.43269C5.62345 4.15405 5.07367 4.75104 4.29899 4.75104ZM14.07 13.1089H11.796V9.55183C11.796 8.7061 11.771 7.58674 10.5964 7.58674C9.39693 7.58674 9.222 8.53198 9.222 9.47721V13.1089H6.94792V5.7709H9.17202V6.79076H9.19701C9.52188 6.19377 10.2466 5.59678 11.3711 5.59678C13.6952 5.59678 14.12 7.08925 14.12 9.12897V13.1089H14.07Z"
+                      />
+                    </svg>
+                  </a>
+                </div>  
+                          
               </div>
             </div>
-          </div>
-
-          <div class="ec gk/2 _k/2 im/12 wn/12 if">
-            <div class="ma">
-              <h2 class="ah jh uj xg la">Useful Links</h2>
-              <ul>
-                <li>
-                  <a href="javascript:void(0)" class="ug bh lb kh ka ui"> Blog </a>
-                </li>
-                <li>
-                  <a href="javascript:void(0)" class="ug bh lb kh ka ui"> Pricing </a>
-                </li>
-                <li>
-                  <a href="javascript:void(0)" class="ug bh lb kh ka ui"> About </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="ec gk/2 _k/2 im/12 wn/12 if">
-            <div class="ma">
-              <h2 class="ah jh uj xg la">Terms</h2>
-              <ul>
-                <li>
-                  <a href="javascript:void(0)" class="ug bh lb kh ka ui"> TOS </a>
-                </li>
-                <li>
-                  <a href="javascript:void(0)" class="ug bh lb kh ka ui"> Privacy Policy </a>
-                </li>
-                <li>
-                  <a href="javascript:void(0)" class="ug bh lb kh ka ui"> Refund Policy </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="ec _k/2 hm/12 xn/12 if">
-            <div class="ma">
-              <h2 class="ah jh uj xg la">Support & Help</h2>
-              <ul>
-                <li>
-                  <a href="javascript:void(0)" class="ug bh lb kh ka ui"> Open Support Ticket </a>
-                </li>
-                <li>
-                  <a href="javascript:void(0)" class="ug bh lb kh ka ui"> Terms of Use </a>
-                </li>
-                <li>
-                  <a href="javascript:void(0)" class="ug bh lb kh ka ui"> About </a>
-                </li>
-              </ul>
-            </div>
+            <div class="flex text-center justify-center mt-3 uj">
+              <p class="mb-3">
+                Notice: Dynius uses cookies to provide necessary website functionality, improve your experience and analyze our traffic. By using our website, you agree to our <a href="privacy-policy.html" class="underline hover:text-blue-500">Privacy Policy</a>           
+              </p>
+            </div>     
           </div>
         </div>
-      </div>
-      <div class="jf qe ve">
-        <div class="a">
-          <p class="kh uj ug sg">&copy; Crafted by UIdeck for You!</p>
-        </div>
-      </div>
+      </div>     
+    
       <div class="e m n z">
         <svg width="55" height="99" viewBox="0 0 55 99" fill="none" xmlns="http://www.w3.org/2000/svg">
           <circle opacity="0.8" cx="49.5" cy="49.5" r="49.5" fill="#959CB1" />
