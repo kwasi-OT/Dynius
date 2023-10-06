@@ -1200,6 +1200,11 @@ input#checkboxLabel:checked ~ .box span{
   --tw-bg-opacity: 1;
   background-color: rgb(74 108 247 / var(--tw-bg-opacity));
 }
+
+.bgc {
+  background-color: #33ffad;
+}
+
 .re{
   --tw-bg-opacity: 1;
   background-color: rgb(149 156 177 / var(--tw-bg-opacity));
