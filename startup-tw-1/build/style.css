@@ -9,7 +9,7 @@
 /*!*****************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/css/animate.css ***!
   \*****************************************************************************************************************/
-@charset "UTF-8";
+/* @charset "UTF-8"; */
 
 /*!
  * animate.css -https://daneden.github.io/animate.css/
@@ -1200,6 +1200,11 @@ input#checkboxLabel:checked ~ .box span{
   --tw-bg-opacity: 1;
   background-color: rgb(74 108 247 / var(--tw-bg-opacity));
 }
+
+.bgc {
+  background-color: #33ffad;
+}
+
 .re{
   --tw-bg-opacity: 1;
   background-color: rgb(149 156 177 / var(--tw-bg-opacity));

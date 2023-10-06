@@ -7,7 +7,9 @@
     <title>Dynius</title>
     <meta name="title" content="Dynius" />
 
-  <link rel="icon" href="favicon.ico"><link href="style.css" rel="stylesheet"></head>
+    <link rel="icon" href="favicon.ico">
+    <link href="style.css" rel="stylesheet">
+  </head>
   <body class="mj">
     <!-- ====== Navbar Section Start -->
     <header class="header ne e g h x ec mb qd">
@@ -42,7 +44,7 @@
                   </li>
                   <li class="f ej">
                     <a
-                      href="#Our offering"
+                      href="#Our-offering"
                       class="menu-scroll ug text-dark uj fj nf um em vm mb da wl xl rn"
                     >
                     Our offering
@@ -50,7 +52,7 @@
                   </li>
                   <li class="f ej">
                     <a
-                      href="#Our Guarantees"
+                      href="#Our-Guarantees"
                       class="menu-scroll ug text-dark uj fj nf um em vm mb da wl xl rn"
                     >
                     Our Guarantees
@@ -64,7 +66,7 @@
                       Support
                     </a>
                   </li>
-                  <li class="f ej submenu-item">
+                  <!-- <li class="f ej submenu-item">
                     <a
                       href="javascript:void(0)"
                       class="ug text-dark uj fj nf um em zm _m mb da wl xl rn f di ii hi li mi ni ki mn ei fi/2 ji gi"
@@ -80,7 +82,7 @@
                       <a href="contact.html" class="kb vg xd of if text-dark uj xi"> Contact Page </a>
                       <a href="404.html" class="kb vg xd of if text-dark uj xi"> 404 Page </a>
                     </div>
-                  </li>
+                  </li> -->
                 </ul>
               </nav>
             </div>
@@ -242,7 +244,7 @@
 
 
     <!-- ====== Page 2 Section Start -->
-    <section class="f y xf">
+    <section id="Our-offering" class="f y xf">
       <div class="a">
         <div class="mb pd ba">
           <div class="ec if">
@@ -342,7 +344,7 @@
                   Your Virtual Employee
                 </h2>
                 <p class="bh kh ug pk eh sk ua">
-                  ySathi is a versatile, AI-powered virtual assistant designed to boost your employees’ productivity and enable them to focus on more value-adding and creative activities.
+                  ySathi is a versatile, AI-powered virtual assistant designed to boost your employees' productivity and enable them to focus on more value-adding and creative activities.
 
                 </p>
                 <div class="mb pd ia">
@@ -900,7 +902,7 @@
 
 
      <!-- ====== Our Guarantees Section Start -->
-     <section id="our-guarantees" class="qe xe fg og">
+     <section id="Our-Guarantees" class="qe xe fg og">
       <div class="a">
         <div class="mb pd ba">
           <div class="ec if">
@@ -1032,7 +1034,7 @@
     <!-- ====== Our Guarantees Section End -->
 
      <!-- ====== Testimonial Section Start -->
-     <section class="f y fg mg qe xe">
+     <!-- <section class="f y fg mg qe xe">
       <div class="a">
         <div class="mb pd ba">
           <div class="ec if">
@@ -1238,11 +1240,11 @@
           </defs>
         </svg>
       </div>
-    </section>
+    </section> -->
     <!-- ====== Testimonial Section End -->
 
     <!-- ====== Pricing Section Start -->
-    <section id="pricing" class="f y fg mg">
+    <!-- <section id="pricing" class="f y fg mg">
       <div class="a">
         <div class="mb pd ba">
           <div class="ec if">
@@ -1614,11 +1616,11 @@
           </defs>
         </svg>
       </div>
-    </section>
+    </section> -->
     <!-- ====== Pricing Section End -->
 
     <!-- ====== Blog Section Start -->
-    <section id="blog" class="bg-primary ue fg mg">
+    <!-- <section id="blog" class="bg-primary ue fg mg">
       <div class="a">
         <div class="mb pd ba">
           <div class="ec if">
@@ -1754,18 +1756,20 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- ====== Blog Section End -->
 
     <!-- ====== Contact Section Start -->
-      <section id="contact" class="fg mg ud">
+      <section id="Support" class="fg mg ud">
         <div class="a">
             <div class="mb pd ba">
                 <div class="ec mm/12 if">
                     <div class="qe xe oj wd ff qa bm kk rm bo wow fadeInUp" data-wow-delay=".15s">
                         <h2 class="ah jh uj yg qk gn oo _a">Need Help? Open a Ticket</h2>
                         <p class="kh ug bh qa">Our support team will get back to you ASAP via email.</p>
-                        <form id="ticketForm">
+
+                        <!-- support ticket form -->
+                        <form id="ticketForm" action="assets/sendmail.php" method="POST" enctype="multipart/form-data">
                             <div class="mb pd ba">
                                 <div class="ec _k/2 if">
                                     <div class="na">
@@ -1818,12 +1822,7 @@
                                     <div id="messageError" class="error-message"></div>
                                 </div>
                                 <div class="ec if">
-                                    <a
-                                        href="mailto:federico.pirovano@dynius.ai"
-                                        class="ug bh ih qe tf wf ri zi wd ai bi ci"
-                                    >
-                                        Submit Ticket
-                                    </a>
+                                    <button class="ug bh ih qe tf wf ri zi wd ai bi ci" type="submit">Submit Ticket</button>
                                 </div>
                             </div>
                         </form>
@@ -1837,7 +1836,7 @@
                         </p>
                         <a
                             href="https://calendly.com/federico-pirovano/one-to-one-meeting"
-                            class="ug bh ih qe tf wf ri zi wd ai bi ci"
+                            class="ug bh ih tf wf ri zi wd ai bi ci bgc" target="_blank"
                         >
                             Talk to Us
                         </a>
@@ -2139,27 +2138,28 @@
       window.document.addEventListener('scroll', onScroll);
 
       // Function to count up to 7
-function countUp() {
-    const countElement = document.getElementById("countNumber");
-    let count = 0;
+      function countUp() {
+          const countElement = document.getElementById("countNumber");
+          let count = 0;
 
-    function updateCount() {
-        if (count <= 7) {
-            countElement.textContent = count;
-            count++;
-            setTimeout(updateCount, 1000); // Update every second
-        }
-    }
+          function updateCount() {
+              if (count <= 7) {
+                  countElement.textContent = count;
+                  count++;
+                  setTimeout(updateCount, 1000); // Update every second
+              }
+          }
 
-    updateCount();
-}
+          updateCount();
+      }
 
-// Run countUp when the page is loaded
-window.onload = function () {
-    countUp();
-    startCarousel(); // Add this line to start the partner carousel
-};
+      // Run countUp when the page is loaded
+      window.onload = function () {
+          countUp();
+          startCarousel(); // Add this line to start the partner carousel
+      };
 
     </script>
-  <script defer src="bundle.js"></script></body>
+    <script defer src="bundle.js"></script>
+  </body>
 </html>
