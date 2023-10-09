@@ -1094,7 +1094,7 @@ input#checkboxLabel:checked ~ .box span{
 }
 .ld{
   -webkit-user-select: none;
-     -moz-user-select: none;
+    -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
 }
@@ -1748,7 +1748,7 @@ input#checkboxLabel:checked ~ .box span{
 .b .bk:hover{
   opacity: 1;
 }
-@media (min-width: 540px){
+@media (min-width: 420px){
 
   .ck{
     margin-left: 1rem;
